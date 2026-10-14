@@ -1,0 +1,33 @@
+# Core FastAPI Web Framework & Server
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+starlette==1.8.0
+python-multipart==0.0.32
+sse-starlette==3.5.0
+aiofiles==25.1.0
+
+# Speech Recognition Engine (Faster-Whisper & CTranslate2)
+faster-whisper==1.2.1
+ctranslate2==4.8.3
+tokenizers==0.23.3
+huggingface-hub==2.2.0
+av==18.1.0
+
+# Audio Processing & Diagnostics
+soundfile==0.14.0
+psutil==7.2.2
+numpy==2.4.6
+
+# Validation & Settings Management
+pydantic==2.14.1
+pydantic-settings==2.15.0
+pydantic-core==2.50.1
+python-dotenv==1.2.4
+
+# Database & Persistence (SQLite / SQLAlchemy)
+SQLAlchemy==2.1.4
+
+# Testing & Development
+pytest==9.1.1
+pytest-asyncio==1.4.0
+httpx==0.28.1
